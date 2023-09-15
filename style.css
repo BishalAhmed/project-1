@@ -173,6 +173,7 @@ header .button h4:hover{
     body {
         background-color: rgb(39, 159, 173);
         overflow-x: hidden;
+        overflow-y: hidden;
    }
     .logo-text{
         margin-top: 0px;
@@ -292,5 +293,15 @@ header .button h4:hover{
         font-size: 24px;
         
    }
+   ul {
+    display: none;
+    top: 70px;
    
+}
+
+
+ul.bar-active{
+    display: flex;
+   
+}
 }
