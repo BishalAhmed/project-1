@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top :45px;
+    margin: auto ;
+    background-color: #fefefe;
+}
+.logo{
+    width: 250px;
+    display: flex;
+    margin: 8px 5px 5px 10px;
+    padding: 5px;
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00b98e;
+    font-size: 30px;
+    outline: 3px solid ;
+    width: 55px;
+    padding: 5px;
+    height: 55px;
+    border: 3px dotted #00b98e ;
+    border-radius: 50px 50px;
+    margin: 0px 5px;
+}
+.logo-text{
+    font-size: 35px;
+    color: #00b98e;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-top: 5px;
+}
+header nav{
+    width: 40vw;
+    line-height: 60px;
+}
+header nav li{
+    padding: 0px 16px 27px 0px;
+}
+header nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+    margin: auto;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+header nav li a:hover{
+    color: #00B98E;
+    transition: 0.1s;
+}
+.active{
+    color: #00b98e;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+header .button {
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+header .button h4 {
+    padding: 12px 16px;
+    margin: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #00b98e;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.4s;
+}
+header .button h4:hover{
+    background-color: #04d2a2;
+}
+.dropdown-button{
+    position: relative;
+}
+.dropdown-content{
+    border: 2px solid ;
+    display: none;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    transition: all 0.6s ease-in-out;
+}
+.dropdown-content a {
+    padding: 12px 16px 12px 0px;
+    display: flex;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.dropdown-content a:hover{
+    color: black;
+    background-color: #f1f1f1;
+}
+.dropdown-button:hover .dropdown-content{
+    display: block;
+    top: 50px;
+}
+.ham{
+    display: none;
+}
+
